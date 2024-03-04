@@ -16,7 +16,7 @@ export const Form = () => {
       formData.append("name", name);
       formData.append("age", age);
 
-        const response = await Axios.post('http://localhost:3001/post',formData, {
+        const response = await Axios.post('https://softnotions-internship-server.vercel.app/',formData, {
         headers: {
           'Content-Type': 'application/json'
         }
