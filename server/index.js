@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import dontenv
 
 
 mongoose.connect('mongodb+srv://Vishnu:BasicCurd@cluster0.ilkqjy7.mongodb.net/CURD')
